@@ -56,11 +56,11 @@ public class UserController {
 
 
         List<String> userList = new ArrayList<>();
-        userList.add("Michelli");
-        userList.add("Maria");
-        userList.add("Roberto");
-        userList.add("Carlos");
-        userList.add("Ana Clara");
+        userList.add("Marcelo");
+        userList.add("Jade");
+        userList.add("Julia");
+        userList.add("Jota");
+        userList.add("Marcos boca aberta");
         TimeUnit.SECONDS.sleep(15);
 
         return userList;

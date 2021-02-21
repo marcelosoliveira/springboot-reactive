@@ -20,8 +20,8 @@ public class DummyDataService {
 
         userRepository.deleteAll()
                 .thenMany(
-                        Flux.just("Michelli", "Maria", "Roberto",
-                                "Carlos", "Ana Clara")
+                        Flux.just("Marcelo", "Jade", "Julia",
+                                "Jota", "Marcos boca aberta")
                                 .map(nome -> new UserDocument(UUID.randomUUID().toString(), nome))
                                 .flatMap(userRepository::save))
                 .subscribe(System.out::println);
